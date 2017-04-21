@@ -1,15 +1,15 @@
 
 Pod::Spec.new do |s|
-  s.name             = "SwiftPhotoGallery"
-  s.version          = "3.1.0"
-  s.summary          = "Photo gallery for iOS and tvOS written in Swift"
+  s.name             = "FP2017"
+  s.version          = "1.0.0"
+  s.summary          = "Photo gallery whith millions of hot pics"
   s.description      = <<-DESC
-                        "Photo gallery for iOS and tvOS written in Swift. Photos can be panned and zoomed (iOS). Includes a customizable page indicator, support for any orientation (iOS), and supports images of varying sizes. Includes unit tests."
+                        "Photo gallery whith millions of hot pics"
                        DESC
 
-  s.homepage         = "https://github.com/Inspirato/SwiftPhotoGallery"
+  s.homepage         = "https://mei12356.com"
   s.license          = 'GNU'
-  s.author           = { "Justin Vallely" => "jvallely@inspirato.com" }
+  s.author           = { "xron" => "andylaw2017@gmail.com" }
   s.source           = { :git => "https://github.com/Inspirato/SwiftPhotoGallery.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = "8.0"

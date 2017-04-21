@@ -11,7 +11,8 @@ import SwiftPhotoGallery
 
 class ViewController: PortraitOnlyViewController {
 
-    let imageNames = ["image1.jpeg", "image2.jpeg", "image3.jpeg"]
+    let imageNames = ["image1.jpeg", "image2.jpeg", "image3.jpeg", "Lips-48.png"]
+    let imageInst = "https://ig-s-b-a.akamaihd.net/hphotos-ak-xta1/t51.2885-15/e35/17265902_267101913747541_3627374961242406912_n.jpg"
 
     @IBAction func didPressShowMeButton(_ sender: AnyObject) {
         let gallery = SwiftPhotoGallery(delegate: self, dataSource: self)
